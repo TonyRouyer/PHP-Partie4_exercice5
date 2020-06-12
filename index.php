@@ -1,6 +1,6 @@
 <?php
     function concat($str, $nb){
-        echo $str . ' a ' . $nb . ' ans';
+        return $str . ' a ' . $nb . ' ans';
         } 
 ?>
 <!DOCTYPE html>
@@ -11,6 +11,6 @@
         <title>partie 4 exercice 5</title>
     </head>
     <body>
-        <p><?php concat('tony', 24) ?></p>
+        <p><?php echo concat('tony', 24) ?></p>
     </body>
 </html>
